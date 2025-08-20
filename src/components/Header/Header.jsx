@@ -1,9 +1,12 @@
-
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
-            <h2>This is header</h2>
+            <NavLink style={{'marginRight': '20px'}} to="/">Home</NavLink>
+            <NavLink to="/login">Login</NavLink>
+            
         </div>
     );
 };

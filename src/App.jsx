@@ -8,6 +8,7 @@ function App() {
       
       <h1>Simple Firebase</h1>
       
+      
     </>
   )
 }
